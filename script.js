@@ -1,9 +1,19 @@
-console.log(123);
-addInputs = function () {
-    input3.value = add(input1.value, input2.value);
-}
-add = function(a, b) {
-    a = parseInt(a);
-    b = parseInt(b);
+function addInputs () {
+    var value1 = parseInt(input1.value) || 0;
+    var value2 = parseInt(input2.value) || 0;
+    input3.value = add(value1, value2);
+};
+
+function multiplyInputs () {
+    var value1 = parseInt(input1.value) || 0;
+    var value2 = parseInt(input2.value) || 0;
+    input3.value = multiply(value1, value2);
+};
+
+/**
+ * Below this text is where we can put our code for the assignments:*/
+
+
+function add (a, b) {
     return a + b;
-}
+};
