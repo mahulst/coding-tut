@@ -1,6 +1,6 @@
 var result;
-describe('calculate', function () {
-    it('should add two numbers if last argument is add', function (){
+describe('calculator', function () {
+    it('should add two numbers', function (){
         result = add(1, 2);
         expect (result).toBe (3);
 
@@ -8,7 +8,8 @@ describe('calculate', function () {
         expect (result).toBe (32);
     });
 
-    it('should multiply two numbers if last argument is multiply', function () {
+    it('should multiply two numbers', function () {
+        //Add your tests here:
 
     });
 });
