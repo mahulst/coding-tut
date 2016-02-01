@@ -25,3 +25,4 @@ Now you will try to add functionality to the calculator
 
 Open your terminal and enter the following command:
 git checkout step-2
+
